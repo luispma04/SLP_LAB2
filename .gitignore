@@ -1,0 +1,13 @@
+# Ignore everything in the root
+/*
+
+# But do NOT ignore the src folder
+!/src/
+
+# Do NOT ignore the .gitignore file itself
+!.gitignore
+
+# Common extras to ignore (if they exist)
+.DS_Store
+thumbs.db
+*.log
